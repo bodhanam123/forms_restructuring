@@ -1,0 +1,9 @@
+#declare bq_views and derived tables as sources
+
+version: 2
+
+sources:
+  - name: forms
+    database: kossip-helpers-270615
+    tables: 
+      - name: otg_forms_ibform
